@@ -7,6 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traderok", "Traderok\Trader
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traderok.Web", "Traderok.Web\Traderok.Web.csproj", "{E9173953-40CE-4349-876D-B0148743A06B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{05EE5234-A76C-465C-AF0B-9844C2052D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traderok.Domain.Core", "Traderok.Domain.Core\Traderok.Domain.Core.csproj", "{FE6F4B55-C2DC-4DED-AFA7-3C1039B40BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traderok.Domain.Interfaces", "Traderok.Domain.Interfaces\Traderok.Domain.Interfaces.csproj", "{22D69CD2-143F-47FD-ACA0-A9A977B7F4BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C0DE90B4-21F8-4F04-B37C-EB88774D6389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traderok.Services.Interfaces", "Traderok.Services.Interfaces\Traderok.Services.Interfaces.csproj", "{C4C487D1-463F-452C-A9D1-644F00CB0D23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traderok.Infrastructure", "Traderok.Infrastructure", "{F992822B-FBFE-4DF0-8F17-02C91DAD8A32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,11 +33,28 @@ Global
 		{E9173953-40CE-4349-876D-B0148743A06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9173953-40CE-4349-876D-B0148743A06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9173953-40CE-4349-876D-B0148743A06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6F4B55-C2DC-4DED-AFA7-3C1039B40BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6F4B55-C2DC-4DED-AFA7-3C1039B40BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6F4B55-C2DC-4DED-AFA7-3C1039B40BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6F4B55-C2DC-4DED-AFA7-3C1039B40BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D69CD2-143F-47FD-ACA0-A9A977B7F4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D69CD2-143F-47FD-ACA0-A9A977B7F4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D69CD2-143F-47FD-ACA0-A9A977B7F4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D69CD2-143F-47FD-ACA0-A9A977B7F4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C487D1-463F-452C-A9D1-644F00CB0D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C487D1-463F-452C-A9D1-644F00CB0D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C487D1-463F-452C-A9D1-644F00CB0D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C487D1-463F-452C-A9D1-644F00CB0D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D7F2BA0-1643-41A3-A4DE-EA96710D3D39}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE6F4B55-C2DC-4DED-AFA7-3C1039B40BC6} = {05EE5234-A76C-465C-AF0B-9844C2052D87}
+		{22D69CD2-143F-47FD-ACA0-A9A977B7F4BE} = {05EE5234-A76C-465C-AF0B-9844C2052D87}
+		{C4C487D1-463F-452C-A9D1-644F00CB0D23} = {C0DE90B4-21F8-4F04-B37C-EB88774D6389}
 	EndGlobalSection
 EndGlobal

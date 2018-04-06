@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Traderok
+namespace Traderok.Domain.Core
 {
     public interface IEntity
     {
